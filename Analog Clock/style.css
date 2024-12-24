@@ -1,0 +1,38 @@
+#clockContainer{
+position: relative;
+ margin: auto;/*center item*/
+
+ height: 40vw;
+ width: 40vw;
+ background: url(photo.png) no-repeat; /* used for not repeating pic */
+ background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.5%;
+    height: 20%;
+    top: 29%;
+    left: 49.4%;
+    opacity: 0.8;/*The opacity property in CSS is used to set the transparency level of an element.*/
+    
+   
+}
+#minute{
+    width: 1%;
+    height: 25%;
+    top: 24%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+}
+#second{ width: 1%;
+    height: 30%;
+    top: 19%;
+    left: 49.6%;
+    opacity: 0.8;
+}
